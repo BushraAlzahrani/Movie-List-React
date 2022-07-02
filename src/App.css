@@ -1,0 +1,100 @@
+.App{
+ 
+  background-image: url(https://img.freepik.com/free-vector/film-strip-background-with-clapper-board_1017-33456.jpg?t=st=1656770757~exp=1656771357~hmac=6eff61a95a3d68f74a5dee47ca5b242e3db75e83a5009d95215e306eb7564660&w=1380);
+  height: 100%;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.active {
+  background-color: rgba(54, 72, 173, 0.933)
+}
+
+.cards {
+
+  text-align: center;
+  border: solid 1px rgb(255, 255, 255, 0.3);
+  width: 230px;
+  margin: 10px;
+  background-color: rgb(0, 0, 0, 0.3);
+
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-gap: 100px;
+}
+
+
+
+ .cards :hover{
+  border: 1px solid #fff;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 5px 0px #fff;
+} 
+
+
+img {
+	
+  width: 230px;
+  height: 330px;
+}
+
+
+.card-content p {
+	font-size: 80%;
+  color: #fff;
+}
+
+.card-content h2,h4{
+  color: #fff;
+}
+
+
+
+.footer{
+  background:#333;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  color:white;
+  font-size:0.8em;
+  }
+  
+  
+.footer{
+  text-align:center;
+  padding:3%;
+  }
+
+  
